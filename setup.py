@@ -13,5 +13,5 @@ setup(name='datasci',
       test_suite='tests',
       # include_package_data: to install data from MANIFEST.in
       include_package_data=True,
-      scripts=['scripts/datasci-run'],
+      scripts=['scripts/datasci-run', 'scripts/datasci-subplots'],
       zip_safe=False)
